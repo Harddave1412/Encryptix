@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color:#2c8e58;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navbar {
+    margin-bottom: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar a:hover {
+    color: black;
+    text-decoration:underline;
+    padding: 0.5rem 1rem;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.about h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #2c8e58;
+    padding-bottom: 0.5rem;
+}
+
+.about img {
+    width: 150px;
+    height: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.about h3 {
+    text-transform: capitalize;
+    color: #333;
+}
+
+.about p {
+    text-transform: capitalize;
+    color: #666;
+}
+
+/* Skills Section */
+.skills {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+.skills h2 {
+    text-transform: uppercase;
+    color: #008372;
+    border-bottom: 2px solid #2c8e58;
+}
+
+.skills p {
+    text-transform: capitalize;
+    color: #2c8e58;
+}
+
+/* Projects Section */
+.project {
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.project h2 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #2c8e58;
+    padding-bottom: 0.5rem;
+}
+
+.project ul {
+    padding: 0;
+}
+
+.project li {
+    text-transform: capitalize;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+/* Resume Link */
+
+.res{
+    padding: 2rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #2c8e58;
+}
+
+.res a {
+    display: block;
+    text-align: center;
+    color: #2c8e58;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.res a :hover{
+    font-size: x-large;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 1;
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    margin: 1rem auto;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.contact h2 {
+    text-transform: uppercase;
+    color: #2c8e58;
+    border-bottom: 2px solid #2c8e58;
+    padding-bottom: 0.5rem;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #2c8e58;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3 {
+    margin: 10px;
+    text-transform: uppercase;
+}
+footer a{
+    color: #fff;
+    margin-inline: 10px ;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #000;
+    margin-inline: 10px ;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
